@@ -1,0 +1,9 @@
+post http://localhost:3000/api/form 
+Content-Type: application/json
+
+{
+    "fullname": "test",
+    "username": "test",
+    "email": "test@test.com",
+    "password": "test"
+}
